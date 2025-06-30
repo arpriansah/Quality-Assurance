@@ -1,0 +1,35 @@
+Bagian A – Pengetahuan Dasar QA (Pilihan Ganda & Singkat)
+
+1. Jelaskan perbedaan antara bug, defect, dan error.
+Jawaban:
+Bug adalah error yang terdapat pada fungsi yang menyebabkan suatu aplikasi tidak dapat berjalan sesuai dengan requirement. Defect adalah ketidaksesuaian antara expected result dan actual result dari aplikasi. Error adalah suatu kesalahan yang dilakukan developer saat mengembangkan aplikasi.
+
+2. Apa yang dimaksud dengan regression testing dan kapan biasanya dilakukan?
+Jawaban:
+Regression testing adalah pengujian ulang pada sistem yang telah dilakukan perbaikan atau perubahan untuk memastikan fungsi sebelumnya dapat berjalan normal tanpa tidak ada dampak dari perbaikan atau perubahan yang ada. Regression testing biasanya dilakukan setelah fixing issue, penambahan fitur, dan update system.
+
+3. Sebutkan lifecycle dari bug/defect dari ditemukan hingga ditutup.
+Jawaban:
+New, Open, Assign, In Progress, Solved, In Testing, Closed, Closed, dan Re-Opened
+
+4. Apa itu test case dan test scenario? Jelaskan perbedaannya dan berikan contohnya.
+Jawaban:
+Test case adalah informasi detail yang berisi langkah-langkah yang dilakukan dalam melakukan pengujian. Contoh:
+Case: Login dengan password salah
+Step test:
+1. Buka halaman login
+2. Input username yang valid
+3. Input password yang salah
+4. Klik "Login"
+
+Test scenario adalah informasi yang berisi summary scenario dari fitur yang akan dilakukan pengujian. Contoh: User melakukan login aplikasi menggunakan username valid dan password yang salah.
+
+5. Apa yang dimaksud dengan severity dan priority dalam konteks bug? Berikan masing-masing contohnya.
+Jawaban:
+Severity adalah ukuran yang menunjukkan tingkat atau dampak dari suatu defect. Contoh:
+1. High Severity: kesalahan accounting treatment dalam transaksi.
+2. Low Severity: kesalahan kata pada suatu fitur.
+
+Priority adalah ukuran yang menunjukkan urgensi dalam fixing defect. Contoh:
+1. High Priority: Transfer telah berhasil dilakukan, tetapi tidak terdapat journal transaksi
+2. Low Priority: Logo dalam document tidak menggunakan yang terbaru
